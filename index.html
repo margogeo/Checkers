@@ -1,0 +1,59 @@
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "icon" href = "black_queen.png">
+    <title>Checkers</title>
+</head>
+<body background = "whitedesk.jpg">
+<center>
+<table>
+    <tr>
+        <td id = "lcol" rowspan = 2></td>
+        <td id = "central" rowspan = 2>
+            <h1>Checkers</h1>
+            <h2><a href = "#rules">Rules</a></h2>
+            <table id = "dsk"></table>
+            <h3><ul id = "rules" border = 1> <h2 class = "heading">Rules</h2>
+                <li>Click on a checker and then on a cell you want to move it to</li>
+                <li>Basic checker can be moved on 1 cell diagonally towards opposite player's side</li>
+                <li>Click on a cell next to a checker you want to take</li>
+                <li>Basic checkers can only take a checker near them on diagonal in any direction</li>
+                <li>Player have to take all the checkers available in one turn</li>
+                <li>Reaching the furthest line makes a checker a King</li>
+                <li>A King can move in any direction diagonally, but only one time in a turn</li>
+                <li>Rule number three is same for Kings</li>
+                <li>Game ends when one of the players runs out of checkers</li>
+            </ul></h3>
+        </td>
+        <td id = "regis" valign = "top" rowspan = 2 >
+            <h2>Log in to keep a score</h2><br>
+            <table class = "reg">
+                <tr><td width=150>
+                <div class = "oldreg">
+                    <h3>Login</h3><br>
+                        <table>
+                            <tr><th width=150>Username:<br>
+                                <input type = "edit" id = "usr">
+                            </td></tr>
+                            <tr><th width=150>Password:<br>
+                                <input type = "password" id = "psw">
+                            </td></tr>
+                            <tr><th width=150>
+									<br>
+                                    <input type = "button" value = "Login" onClick="Login('L');" width = 70>
+                                    <input type = "button" value = "Register" onClick="Login('R');" width = 70>
+								
+                            </th></tr>
+                        </table>
+                </div>
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</center>
+<script src = "client.js"></script>
+
+</body>
+</html>
