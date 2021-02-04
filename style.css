@@ -1,0 +1,115 @@
+html {
+    font-family: sans-serif;
+}
+
+#lcol {
+    width : 18%;
+    valign : top;
+}
+
+#dsk {
+    cellspacing : "0";
+    cellpadding : "0";
+}
+
+#central {
+    width : 64%;
+    align : center;
+}
+
+#regis {
+    width : 18%;
+    valign : top;
+}
+
+.wcl {
+    width: 100px; height: 100px;
+	background: url('whiteCell.jpg');
+	background-size: cover;
+}
+
+.bcl {
+    width: 100px; height: 100px;	
+	background: url('blackCell.jpg');
+	background-size: cover;
+}
+
+.pass {
+	border: 2px solid rgba(0,0,0,0);
+}
+
+.activ {
+	border: 2px solid #0dd;
+}
+
+h1 {
+    color : saddlebrown;
+    font-size : 350%;
+    line-height: 80%;
+}
+
+@-webkit-keyframes glow{
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #de956e;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px rgba(181,93,99,0.7), 0 0 40px rgba(181,93,99,0.7);
+    }
+}
+
+h2 a{
+    color : #fff;
+    font-size: 150%;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    line-height: 80%;
+}
+
+ul {
+    color : saddlebrown;
+    font-size : 150%;
+    background-color : #de956e;
+    width: 800px; height: 600px;
+    border: 5px solid rgba(181,93,99,0.7);
+    border-radius:8px;
+    text-align: left;
+    overflow : auto;
+}
+
+.heading {
+    color : #eed6db;
+    text-align : center;
+}
+
+.oldreg {
+    color : saddlebrown;
+    background-color : #de956e;
+    border : 5px solid rgba(181,93,99,0.7);
+    border-radius : 8px;
+}
+
+input[name="edit"] {
+    width : 90%;
+}
+
+input:hover {
+    background-color : lightyellow;
+}
+
+.reg {
+    color : saddlebrown;
+    width : 80%;
+    height : 20%;
+    text-align: center;
+    align-content: center;
+}
+
+.oldreg:hover {
+    border : 5px solid rgb(255, 246, 71);
+}
+ h2 {
+     text-decoration: underline;
+     color : saddlebrown;
+     font-size: 200%;
+ }
